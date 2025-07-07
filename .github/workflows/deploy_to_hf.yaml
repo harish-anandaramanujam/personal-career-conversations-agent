@@ -9,13 +9,15 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    # - name: Sync with Hugging Face
-    #   uses: nateraw/huggingface-sync-action@v0.0.4
-    #   with:
-    #     github_repo_id: your_github_repo_id
-    #     huggingface_repo_id: your_hugging_face_repo_id
-    #     repo_type: space
-    #     space_sdk: gradio
-    #     hf_token: ${{ secrets.HF_TOKEN }}
+
     - name: echo
       run: echo "This is a placeholder for the Hugging Face sync action. Uncomment the sync step when ready."
+
+    - name: Sync with Hugging Face
+      uses: nateraw/huggingface-sync-action@v0.0.4
+      with:
+        github_repo_id: harish-anandaramanujam/personal-career-conversations-agent
+        huggingface_repo_id: harish-anandaramanujam/career-conversations-gpt-v2
+        repo_type: space
+        space_sdk: gradio
+        hf_token: ${{ secrets.HF_TOKEN }}
