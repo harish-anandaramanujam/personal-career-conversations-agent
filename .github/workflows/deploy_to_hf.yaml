@@ -3,7 +3,7 @@ name: Sync with Hugging Face Hub
 on:
   push:
     branches:
-      - develop*
+      - main
 
 jobs:
   build:
@@ -21,4 +21,4 @@ jobs:
     - name: Push to hub
       env:
         HF_TOKEN: ${{ secrets.HF_TOKEN }}
-      run: git push https://harish-anandaramanujam:$HF_TOKEN@huggingface.co/spaces/harish-anandaramanujam/career-conversations-gpt-v2 develop-v2
+      run: git push https://harish-anandaramanujam:$HF_TOKEN@huggingface.co/spaces/harish-anandaramanujam/career-conversations-gpt-v2 main
