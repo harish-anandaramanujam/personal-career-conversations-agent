@@ -13,12 +13,12 @@ jobs:
     - name: echo
       run: echo "This is a placeholder for the Hugging Face sync action. Uncomment the sync step when ready."
 
-    - name: Sync with Hugging Face
-      uses: nateraw/huggingface-sync-action@v0.0.5
+    - uses: actions/checkout@v3
       with:
-        github_repo_id: harish-anandaramanujam/personal-career-conversations-agent
-        huggingface_repo_id: harish-anandaramanujam/career-conversations-gpt-v2
-        repo_type: space
-        space_sdk: gradio
-        hf_token: ${{ secrets.HF_TOKEN }}
-        private: false
+        fetch-depth: 0
+        lfs: true
+
+    - name: Push to hub
+      env:
+        HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      run: git push https://harish-anandaramanujam:$HF_TOKEN@huggingface.co/spaces/harish-anandaramanujam/career-conversations-gpt-v2 main
