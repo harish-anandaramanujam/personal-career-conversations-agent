@@ -1,6 +1,6 @@
 ---
 title: Career Conversations
-emoji: 🐨
+emoji: 👨‍💼
 colorFrom: blue
 colorTo: red
 sdk: gradio
