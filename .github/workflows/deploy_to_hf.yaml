@@ -11,7 +11,7 @@ jobs:
     steps:
 
     - name: echo
-      run: echo "This is a placeholder for the Hugging Face sync action. Uncomment the sync step when ready."
+      run: echo "This is a placeholder for the Hugging Face sync action"
 
     - uses: actions/checkout@v3
       with:
