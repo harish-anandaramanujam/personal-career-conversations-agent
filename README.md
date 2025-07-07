@@ -1,5 +1,5 @@
 ---
-title: Gh Action
+title: Career Conversation with my Digital Persona
 emoji: 🐨
 colorFrom: blue
 colorTo: red
