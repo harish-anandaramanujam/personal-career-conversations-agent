@@ -145,6 +145,5 @@ If the user is engaging in discussion, try to steer them towards getting in touc
     
 
 if __name__ == "__main__":
-    # Launch Gradio chat interface with the Me agent
     me = Me()
-    gr.ChatInterface(me.chat, type=
+    gr.ChatInterface(me.chat, type="messages").launch()
