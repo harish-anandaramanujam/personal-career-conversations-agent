@@ -10,3 +10,8 @@ description: Unleashing my digital swagger with ResumeGPT: Where skills go viral
 ---
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+
+# Model Card for Your Model Title
+
+## Description
+Your model description goes here. This should be a brief summary of what your model does and its capabilities.
