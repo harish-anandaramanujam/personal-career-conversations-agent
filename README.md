@@ -1,6 +1,6 @@
 ---
 title: Career Conversations
-emoji: 🐨
+emoji: 👨‍💼
 colorFrom: blue
 colorTo: red
 sdk: gradio
@@ -11,7 +11,8 @@ description: Unleashing my digital swagger with ResumeGPT - Where skills go vira
 
 Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
 
-# Model Card for Your Model Title
+# Career Conversations
+Unleashing my digital swagger with ResumeGPT - Where skills go viral and experiences level up!
 
 ## Description
 Your model description goes here. This should be a brief summary of what your model does and its capabilities.
